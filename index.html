@@ -5,23 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Schiavi Calcolatori</h1>
     <input type="number" name="" id="input">
     <div>
         <button onclick="calcPrime()">Calcola numeri primi</button>
-        <img id="loader" style="display: none;" src="./loading.gif" alt="">
+        <img id="loader-prime" style="display: none;" src="./loading.gif" alt="">
         <p id="result-prime"></p>
     </div>
     <div>
         <button onclick="calcFactorial()">Calcola Fattoriale</button>
-        <img id="loader2" style="display: none;" src="./loading.gif" alt="">
+        <img id="loader-factorial" style="display: none;" src="./loading.gif" alt="">
         <p id="result-factorial"></p>
     </div>
     <div>
         <button onclick="calcFibonacci()">Calcola Fibonacci</button>
-        <img id="loader3" style="display: none;" src="./loading.gif" alt="">
+        <img id="loader-fibonacci" style="display: none;" src="./loading.gif" alt="">
+        <div class="progress-bar" id="progress-bar"></div>
         <p id="result-fibonacci"></p>
     </div>
 
